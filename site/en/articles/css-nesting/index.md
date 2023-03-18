@@ -642,6 +642,9 @@ There are two great ways to feature detect CSS nesting: use nesting or use
 Using nesting:
 
 ```css
+.has-nesting {
+	display: none;
+}
 html {
   .has-nesting {
     display: block;
