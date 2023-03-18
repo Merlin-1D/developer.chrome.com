@@ -132,7 +132,7 @@ Declaratively create buttons to show and hide the popover:
 
 ```html
 <button popovertarget="my-popover" popovertargetaction="show" >Show popover</button>
-<button popovertarget="my-popover" popovertargetaction="hide">Dismiss popover</button>
+<button popoverhidetarget="my-popover">Dismiss popover</button>
 ```
 
 Declaratively create a single button to toggle the popover between shown and hidden states:
